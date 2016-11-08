@@ -2,11 +2,11 @@
 SoftwareSerial Bluetooth(2, 3); // RX, TX
 
 int Estado;
-int Motor1_A=4;
-int Motor1_B=5;
-int Velocidad_Motor1=6;
-int Motor2_A=7;
-int Motor2_B=8;
+int Motor1_A=13;
+int Motor1_B=12;
+int Velocidad_Motor1=1;
+int Motor2_A=8;
+int Motor2_B=10;
 int Velocidad_Motor2=9;
 int Velocidad=255;
 
