@@ -2,8 +2,6 @@
 class Base_Robot
 {  
   private:
-  
-  
   public:
   Motor_DC Motor_1;
   Motor_DC Motor_2;
