@@ -23,7 +23,7 @@ void Robot_BT::Modo_Bluetooth()
   if (Estado == '1')
       {
         //Arriba_Izquierda
-        Robot.Adelante(Velocidad_Max,Velocidad_Med);
+        Robot.Adelante(Velocidad_Med,Velocidad_Max);
       }
       if (Estado == '2')
       {
@@ -33,13 +33,13 @@ void Robot_BT::Modo_Bluetooth()
       if (Estado == '3')
       {
         //Arriba_Derecha
-        Robot.Adelante(Velocidad_Med,Velocidad_Max);
+        Robot.Adelante(Velocidad_Max,Velocidad_Med);
       }
       if (Estado == '4')
       {
         //Girar a la izquierda
-        Robot.Motor_1.Adelante(Velocidad_Max);
-        Robot.Motor_2.Atras(Velocidad_Max);
+        Robot.Motor_2.Adelante(Velocidad_Max);
+        Robot.Motor_1.Atras(Velocidad_Max);
       }
       if (Estado == '5')
       {
@@ -48,13 +48,13 @@ void Robot_BT::Modo_Bluetooth()
       if (Estado == '6')
       {
         //Girar a la derecha
-        Robot.Motor_1.Atras(Velocidad_Max);
-        Robot.Motor_2.Adelante(Velocidad_Max);
+        Robot.Motor_2.Atras(Velocidad_Max);
+        Robot.Motor_1.Adelante(Velocidad_Max);
       }
       if (Estado == '7')
       {
         //Abajo Izquierda
-        Robot.Atras(Velocidad_Max,Velocidad_Med); 
+        Robot.Atras(Velocidad_Med,Velocidad_Max); 
       }
       if (Estado == '8')
       {
@@ -64,7 +64,7 @@ void Robot_BT::Modo_Bluetooth()
       if (Estado == '9')
       {
         //Abajo Derecha
-        Robot.Atras(Velocidad_Med,Velocidad_Max);
+        Robot.Atras(Velocidad_Max,Velocidad_Med);
       }
       if (Estado == 'w')
       {

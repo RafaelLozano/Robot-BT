@@ -22,14 +22,14 @@
  *    //////////////////////////////////////////
  */
 #include "Robot_BT.h"
-Robot_BT Robot(13,12,11,10,8,9,2,3);
+Robot_BT Robot(13,12,11,10,9,8,2,3);
+char Estado;
 void setup() 
 {
   Robot.Inicializar();
-  Serial.begin(9600);
 }
 
 void loop() 
 {
-  Robot.Modo_Bluetooth();
+  Estado=Robot.Modo_Bluetooth();
 }   
