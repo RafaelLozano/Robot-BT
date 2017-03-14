@@ -31,5 +31,5 @@ void setup()
 
 void loop() 
 {
-  Estado=Robot.Modo_Bluetooth();
+  Robot.Modo_Bluetooth();
 }   
